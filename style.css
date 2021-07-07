@@ -4,6 +4,30 @@ body { font-family: 'Montserrat', sans-serif;
         margin: 0%;
        color: rgb(71, 71, 71);}
 
+header { width: 100%;
+         height: 70px;}
+
+header h1 { position: absolute;
+             float: left;
+             padding: 3px;
+             margin-left: 5%;
+             margin-top: 10px;
+            font-size: 28px; }   
+ul { width: auto;
+      float: right;
+     margin-top: 8px;
+     } 
+     
+li { display: inline-block;
+     padding: 10px 30px;}
+
+li a { text-decoration: none;
+        font-size: 0.9vw;
+        color: rgb(37, 34, 34);}
+ #reg a { background-image: linear-gradient( #027de3 , #55a4e6 );
+        color: white;
+         padding: 8px 13px;
+          border-radius: 25px; }
 
 
 h1 { font-size: 60px;
@@ -11,6 +35,8 @@ h1 { font-size: 60px;
     margin: 1;}
 p {padding-bottom: 2%;}
 span { color: #027de3 ;}
+
+
 .top-banner { display: flex;}
 .top-size { width: 50%;
             padding-left:  5%;
@@ -23,12 +49,13 @@ span { color: #027de3 ;}
 .order-button {text-decoration: none;
  background-image: linear-gradient( #027de3 , #55a4e6 );
       color: white;
-       padding: 10px 25px;
-        border-radius: 20px;
+       padding: 15px 20px;
+        border-radius: 25px;
          }
 
 
 .mid-banner { display: flex;
+        margin-top: 150px;
               background-image: url(images/shapes/Frame\ 57.jpg);
             background-repeat: no-repeat;}
 
@@ -37,13 +64,15 @@ span { color: #027de3 ;}
                margin: 10;
                margin-right: 10%; }
 
+.text-position h2 { font-size: 35px;}
 
 
 
 
 
 
-.bottom-banner { margin-top: 250px;}
+
+.bottom-banner { margin-top: 200px;}
 
   
 .onr  { text-align: center; }
@@ -60,6 +89,8 @@ span { color: #027de3 ;}
           margin-right: 5%;
         box-shadow: 1px 1px 40px rgb(192, 192, 192);
           padding: 25px; }
+.items h1 { color: black;
+            font-size: 40px; }
 
 .items img { width: 100%;}
 
@@ -68,17 +99,38 @@ span { color: #027de3 ;}
 
 
 
+.brance-banner {  margin-top: 200px;
+        background-image: url(images/food/Project\ Cover4.png); 
+        height: 500px;
+         margin-bottom: 200px;}
+
+.brances { text-align: center;}        
+.brances h1 { font-size: 45px;
+              color: white;
+             text-align: center;
+             padding-top: 205px;}
+
+.brances a { text-decoration: none;
+             font-size: 20px; 
+              color: white;
+             background-color: #008cff5b;
+            padding: 10px;
+            margin: 10px;
+             border-radius: 5px;}
+              
 
 
 
 
-footer { background-color: black;
+
+
+.foot { background-color: black;
          height: 320px;
         margin-top: 200px;}
-footer h2 { text-align: center;
+.foot h2 { text-align: center;
             font-size: 40px;
         padding-top: 5%;}
 
-footer p { text-align: center;
+.foot p { text-align: center;
           color: white;}
     
